@@ -15,7 +15,7 @@
 3. Standard/Normalize Scaling (data is scale) -> <br/>
 4. PCA <br/>
 
-&nbsp; Applied a non-linear scaling natural logarithm transformation to reduce skewness, and then identified (and removing) unwanted outliers. The presence of outliers can often skew results which take into consideration these data points. . Skewness is the value not normally distributed within one feature, and we use natural logarithm transformation to fix this. The normalization issue is the scale of the value for one feature is different from the scale of the value for other features (the issue when features have different scale.).  We use minMaxScalar to fix this issue. Minmax or standard/normalize scaling are for centering data. Logarithmic transform is for removing skew. 
+&nbsp; &nbsp; &nbsp; Applied a non-linear scaling natural logarithm transformation to reduce skewness, and then identified (and &nbsp; &nbsp; &nbsp; removing) unwanted outliers. The presence of outliers can often skew results which take into consideration these data &nbsp; &nbsp; &nbsp; points. . Skewness is the value not normally distributed within one feature, and we use natural logarithm &nbsp; &nbsp; &nbsp; transformation to fix this. The normalization issue is the scale of the value for one feature is different from the scale &nbsp; &nbsp; &nbsp; of the value for other features (the issue when features have different scale.).  We use minMaxScalar to fix this &nbsp; &nbsp; &nbsp; issue. Minmax or standard/normalize scaling are for centering data. Logarithmic transform is for removing skew. 
 
 - Applied **PCA transformations** to the data.
 
