@@ -25,7 +25,7 @@ Applied a non-linear scaling natural logarithm transformation to reduce skewness
 
 - Assessed information given by cluster segmentation data and use it in a meaningful way.
 
-## Data
+## Data:
 
 The customer segments data is included as a selection of 440 data points collected on data found from clients of a wholesale distributor in Lisbon, Portugal. More information can be found on the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Wholesale+customers).
 
