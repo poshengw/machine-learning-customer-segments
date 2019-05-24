@@ -10,10 +10,10 @@
 - **Data explore** by using **DecisionTreeRegressor** and **R^2 score** to find out Feature Relevance and determine if any product categories highly correlate with one another. R^2 score is between 0 and 1. The negative R^2 implies the model falls to fit the data. If you get a low score for a particular feature, that leads us to believe that this feature is hard to predict using the other features, therefore making it an important feature to consider when considering relevance. (can use PCA to fix it)
 
 - **Data preprocessing:**<br/> 
-Outlier detection and remove (data has no outlier) -> <br/>
-Logarithmic transformation (data is normalized) -> <br/>
-Standard/Normalize Scaling (data is scale) -> <br/>
-PCA <br/>
+1. Outlier detection and remove (data has no outlier) -> <br/>
+2. Logarithmic transformation (data is normalized) -> <br/>
+3. Standard/Normalize Scaling (data is scale) -> <br/>
+4. PCA <br/>
 
 Applied a non-linear scaling natural logarithm transformation to reduce skewness, and then identified (and removing) unwanted outliers. The presence of outliers can often skew results which take into consideration these data points. . Skewness is the value not normally distributed within one feature, and we use natural logarithm transformation to fix this. The normalization issue is the scale of the value for one feature is different from the scale of the value for other features (the issue when features have different scale.).  We use minMaxScalar to fix this issue. Minmax or standard/normalize scaling are for centering data. Logarithmic transform is for removing skew. 
 
