@@ -1,6 +1,6 @@
-# Machine Learning Engineer Nanodegree
-# Unsupervised Learning
-## Project: Creating Customer Segments
+## Machine Learning Engineer Nanodegree
+## Unsupervised Learning
+### Creating Customer Segments
 
 ### Project Summary:
 - Performed **unsupervised algorithms** to best describe the variation in the different types of customers that a wholesale distributor interacts with.
