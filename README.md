@@ -2,7 +2,7 @@
 # Unsupervised Learning
 ## Project: Creating Customer Segments
 
-### Problem Summary:
+### Project Summary:
 - Performed **unsupervised algorithms** to best describe the variation in the different types of customers that a wholesale distributor interacts with.
 - Analyzed the task that use unsupervised learning techniques to see if any similarities exist between customers, and how to best segment customers into distinct categories.
 - **Data explore** by using **DecisionTreeRegressor** and **R^2 score** to find out Feature Relevance and determine if any product categories highly correlate with one another. R^2 score is between 0 and 1. The negative R^2 implies the model falls to fit the data. If you get a low score for a particular feature, that leads us to believe that this feature is hard to predict using the other features, therefore making it an important feature to consider when considering relevance. (can use PCA to fix it)
