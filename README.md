@@ -13,7 +13,7 @@
 &nbsp;4. PCA <br/>
 Applied a non-linear scaling natural logarithm transformation to reduce skewness, and then identified (and removing) unwanted outliers. The presence of outliers can often skew results which take into consideration these data points. . Skewness is the value not normally distributed within one feature, and we use natural logarithm transformation to fix this. The normalization issue is the scale of the value for one feature is different from the scale of the value for other features (the issue when features have different scale.).  We use minMaxScalar to fix this issue. Minmax or standard/normalize scaling are for centering data. Logarithmic transform is for removing skew. 
 - Applied **PCA transformations** to the data.
-- Implement **K-Means and Gaussian Mixture clustering algorithms** to segment and use **lhouette score** to measure the clustering performance. The shilhouette coefficient for a data point meatures how similar it is to its assigned cluster from -1 (dissimilar) to 1(similar). Calculating the mean silhouette coefficient provides for a simple scoring method of a given clustering.
+- Implement **K-Means and Gaussian Mixture clustering algorithms** to segment and use **shilhouette score** to measure the clustering performance. The shilhouette coefficient for a data point measures how similar it is to its assigned cluster from -1 (dissimilar) to 1(similar). Calculating the mean silhouette coefficient provides for a simple scoring method of a given clustering.
 - Optimally **cluster** a set of data to find hidden patterns in a dataset.
 - Assessed information given by cluster segmentation data and use it in a meaningful way.
 
